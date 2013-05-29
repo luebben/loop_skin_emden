@@ -1,0 +1,88 @@
+/* *******************************************************************
+* background-color 
+* ***************************************************************** */
+#navbar1_left,#navbar1_middle,#navbar1_right {
+	background-color: #ce3233;}
+#wrapper,#toggle_sidebar_left,#toggle_sidebar_right {
+	background-color: #dedede;}
+
+.areafix , #navbar2_left,#navbar2_middle,#navbar2_right,.box_header,.loopblock h2,#sidebarPageToc h2,#sidebarPageInfo h2,.generated-sidebar h2,.areamark_marked,.areacontent_marked {
+	background-color: #f0f0f0;}
+div.flaggedrevs_preview {
+    background-color: #f0f0f0;
+}	
+
+
+
+/* *******************************************************************
+* color 
+* ***************************************************************** */
+	
+#headerNav,#headerNav a {
+	color: #9ea0ab;}
+li .jstree-selected>a span.tocnumber,li .jstree-selected>a span.toctext{
+	color: #ce3233;}
+		
+#footer a,#headerMenu a {
+	color: #777a8a;}
+
+#headerMenu, #headerMenu a {
+	color: #ffffff;}
+
+.box_header,.loopblock h2,#sidebarPageToc h2,#sidebarPageInfo h2,.generated-sidebar h2, #sidebarFacebook h2{
+	color: #777a8a;}
+
+
+/* *******************************************************************
+* background-image 
+* ***************************************************************** */
+#wrapper.bg1090left {
+	background-image: url(../pix/bg1090left_oncampus.png);}
+#wrapper.bg1090right {
+	background-image: url(../pix/bg1090right_oncampus.png);}
+#wrapper.bg1340 {
+	background-image: url(../pix/bg1340_oncampus.png);}
+#wrapper {
+	background-image: url(../pix/bg1340_oncampus.png);}
+#header {
+	background-image: url(../pix/bg_header_oncampus.png);}
+#footer {
+	background-image: url(../pix/footer_rand_oncampus.png);}
+#footer_middle {
+	background-image: url(../pix/footer_mitte_oncampus.png);}
+#footerNavi .navicon_main,#footerNavi .navicon_main_in,#footerNavi .navicon_home,#footerNavi .navicon_home_in,#footerNavi .navicon_previouscap,#footerNavi .navicon_previouscap_in,#footerNavi .navicon_back,#footerNavi .navicon_back_in,#footerNavi .navicon_directory,#footerNavi .navicon_directory_in,#footerNavi .navicon_next,#footerNavi .navicon_next_in,#footerNavi .navicon_nextcap,#footerNavi .navicon_nextcap_in {
+	background-image: url(../pix/navi_icons_unten_oncampus.png);}
+html.svg #footerNavi .navicon_main,html.svg #footerNavi .navicon_main_in,html.svg #footerNavi .navicon_home,html.svg #footerNavi .navicon_home_in,html.svg #footerNavi .navicon_previouscap,html.svg #footerNavi .navicon_previouscap_in,html.svg #footerNavi .navicon_back,html.svg #footerNavi .navicon_back_in,html.svg #footerNavi .navicon_directory,html.svg #footerNavi .navicon_directory_in,html.svg #footerNavi .navicon_next,html.svg #footerNavi .navicon_next_in,html.svg #footerNavi .navicon_nextcap,html.svg #footerNavi .navicon_nextcap_in {
+	background-image: url(../pix/navi_icons_unten_oncampus.svg);}
+.navicon_main,.navicon_main_in,.navicon_home,.navicon_home_in,.navicon_previouscap,.navicon_previouscap_in,.navicon_back,.navicon_back_in,.navicon_directory,.navicon_directory_in,.navicon_next,.navicon_next_in,.navicon_nextcap,.navicon_nextcap_in {
+	background-image: url(../pix/navi_icons_oben_oncampus.png);}
+html.svg .navicon_main,html.svg .navicon_main_in,html.svg .navicon_home,html.svg .navicon_home_in,html.svg .navicon_previouscap,html.svg .navicon_previouscap_in,html.svg .navicon_back,html.svg .navicon_back_in,html.svg .navicon_directory,html.svg .navicon_directory_in,html.svg .navicon_next,html.svg .navicon_next_in,html.svg .navicon_nextcap,html.svg .navicon_nextcap_in {
+	background-image: url(../pix/navi_icons_oben_oncampus.svg);}
+
+
+/* *******************************************************************
+* border-color 
+* ***************************************************************** */
+.wikitable th,.wikitable td {
+	border-color: #aaaaaa;}	
+.box_header,.loopblock h2,#sidebarPageToc h2,#sidebarPageInfo h2,.generated-sidebar h2 {
+	border-bottom-color: #c3c8d6;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	}
+#searchform, .areacontent_marked {
+	border-color: #dddddd;}
+.areamark_marked {
+	border-top-color: #dddddd;
+	border-left-color: #dddddd;
+	border-bottom-color: #dddddd;}
+.mediabox_footer, .mediabox_content {	
+	border-color: #e2ded5;}
+div.flaggedrevs_diffnotice, div.flaggedrevs_preview {
+    border-color: #dddddd;
+}
+
+#footer {
+	border-top:1px solid #dedede;
+	}

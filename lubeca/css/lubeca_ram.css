@@ -1,0 +1,106 @@
+/* *******************************************************************
+* background-color 
+* ***************************************************************** */
+#navbar1_left,#navbar1_middle,#navbar1_right {
+	background-color: #a9afbf;}	
+#wrapper,#toggle_sidebar_left,#toggle_sidebar_right {
+	background-color: #d4dbe1;}
+#header {
+	background-color: #d9d9d9;}
+.areafix , #navbar2_left,#navbar2_middle,#navbar2_right,.box_header,.loopblock h2,#sidebarPageToc h2,#sidebarPageInfo h2,.generated-sidebar h2,.areamark_marked,.areacontent_marked {
+	background-color: #eef2f6;}
+.box_body,#sidebartoc,#sidebarPageToc ul,#sidebarPageInfo ul,.generated-sidebar .pBody,div.flaggedrevs_pristine,div.flaggedrevs_notice{
+	background-color: #ffffff;}
+.editicon,#mw-searchButton,.areamark_icon,.areacontent_icon {
+	background-color: transparent;}
+.mediabox_footer {
+	background-color: #e3e3e3;}
+#content_footer_seperator {
+	background-color: #d6d6d6;}
+div.flaggedrevs_preview {
+    background-color: #eef2f6;
+}	
+
+
+/* *******************************************************************
+* color 
+* ***************************************************************** */
+
+
+#navbar2,#navbar2 a {
+	color: #787878;}
+#content,#content a,li .jstree-selected .tocnumber ul li,li .jstree-selected .toctext ul li,#mw-fr-revisiontag a{
+	color: #000000;}
+#footer a,#headerMenu a {
+	color: #ffffff;}
+.box_header,.loopblock h2,#sidebarPageToc h2,#sidebarPageInfo h2,.generated-sidebar h2{
+	color: #8b8e9b;}
+#searchInput {
+	color: #c2c2c2;} 
+	
+#headerNav,#headerNav a {
+	color: #9095a8;}
+li .jstree-selected>a span.tocnumber,li .jstree-selected>a span.toctext{
+	color: #e32221;}
+	
+#headerMenu {
+	color: #737373;}
+.areatext, .ciation .paragraph_content, .ciation .paragraph_copyright {
+	color: #8b8e9b;} 
+#mw-fr-revisiontag,#mw-fr-revisiontag a {
+	color: #000000;} 
+	
+a:hover {
+	color:#e32a28;}	
+	
+/* *******************************************************************
+* border-color 
+* ***************************************************************** */
+.wikitable th,.wikitable td {
+	border-color: #aaaaaa;}	
+.box_header,.loopblock h2,#sidebarPageToc h2,#sidebarPageInfo h2,.generated-sidebar h2 {
+	border-bottom-color: #d6d6d6;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	}
+#searchform, .areacontent_marked {
+	border-color: #d4dbe1;}
+.areamark_marked {
+	border-top-color: #d4dbe1;
+	border-left-color: #d4dbe1;
+	border-bottom-color: #d4dbe1;}
+.mediabox_footer, .mediabox_content {	
+	border-color: #e3e3e3;}
+div.flaggedrevs_diffnotice, div.flaggedrevs_preview {
+    border-color: #d4dbe1;
+}
+
+
+/* *******************************************************************
+* background-image 
+* ***************************************************************** */
+
+#wrapper.bg1090left {
+	background-image: url(../pix/bg1090left_ram.png);}
+#wrapper.bg1090right {
+	background-image: url(../pix/bg1090right_ram.png);}
+#wrapper.bg1340 {
+	background-image: url(../pix/bg1340_ram.png);}
+#wrapper {
+	background-image: url(../pix/bg1340_ram.png);}
+
+#header {
+	background-image: url(../pix/bg_header_ram.png);}
+#footer {
+	background-image: url(../pix/footer_rand_ram.png);}
+#footer_middle {
+	background-image: url(../pix/footer_mitte_ram.png);}	
+#footerNavi .navicon_main,#footerNavi .navicon_main_in,#footerNavi .navicon_home,#footerNavi .navicon_home_in,#footerNavi .navicon_previouscap,#footerNavi .navicon_previouscap_in,#footerNavi .navicon_back,#footerNavi .navicon_back_in,#footerNavi .navicon_directory,#footerNavi .navicon_directory_in,#footerNavi .navicon_next,#footerNavi .navicon_next_in,#footerNavi .navicon_nextcap,#footerNavi .navicon_nextcap_in {
+	background-image: url(../pix/navi_icons_unten_ram.png);}
+html.svg #footerNavi .navicon_main,html.svg #footerNavi .navicon_main_in,html.svg #footerNavi .navicon_home,html.svg #footerNavi .navicon_home_in,html.svg #footerNavi .navicon_previouscap,html.svg #footerNavi .navicon_previouscap_in,html.svg #footerNavi .navicon_back,html.svg #footerNavi .navicon_back_in,html.svg #footerNavi .navicon_directory,html.svg #footerNavi .navicon_directory_in,html.svg #footerNavi .navicon_next,html.svg #footerNavi .navicon_next_in,html.svg #footerNavi .navicon_nextcap,html.svg #footerNavi .navicon_nextcap_in {
+	background-image: url(../pix/navi_icons_unten_ram.svg);}
+.navicon_main,.navicon_main_in,.navicon_home,.navicon_home_in,.navicon_previouscap,.navicon_previouscap_in,.navicon_back,.navicon_back_in,.navicon_directory,.navicon_directory_in,.navicon_next,.navicon_next_in,.navicon_nextcap,.navicon_nextcap_in {
+	background-image: url(../pix/navi_icons_oben_ram.png);}
+html.svg .navicon_main,html.svg .navicon_main_in,html.svg .navicon_home,html.svg .navicon_home_in,html.svg .navicon_previouscap,html.svg .navicon_previouscap_in,html.svg .navicon_back,html.svg .navicon_back_in,html.svg .navicon_directory,html.svg .navicon_directory_in,html.svg .navicon_next,html.svg .navicon_next_in,html.svg .navicon_nextcap,html.svg .navicon_nextcap_in {
+	background-image: url(../pix/navi_icons_oben_ram.svg);}
