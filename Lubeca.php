@@ -322,7 +322,7 @@ $script='  <script type="text/javascript">
         
       $("#jquery_jplayer_pageaudio").jPlayer({
 
-        swfPath: "/mediawiki/extensions/LoopMediaHandler/js",
+        swfPath: "'.$wgScriptPath.'/extensions/LoopMediaHandler/js",
         supplied: "mp3",
         cssSelectorAncestor: "#jp_container_pageaudio"
       });
