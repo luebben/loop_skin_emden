@@ -1171,10 +1171,6 @@ div.flaggedrevs_short {
 	border: 0px;
 }
 
-.mediabox_content {
-	line-height: 0.6em;
-	text-align: center;
-}
 
 .mediabox_marked {
 	float: left;
@@ -1309,8 +1305,10 @@ a image, image {
 }
 
 .mediabox_content {
-	line-height: 1.4em;
+	line-height: 0em;
+	text-align: center;
 }
+
 
 .pBody {
 	font-size:13px;
