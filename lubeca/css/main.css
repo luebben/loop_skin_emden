@@ -1399,6 +1399,10 @@ div.mw-geshi pre {
   border-bottom: 1px  dashed #e1e1e1 !important;
   }
   
+div.mw-geshi {
+	text-align: left;
+}
+
 table.wikitable td {
   vertical-align:top;
 }  
