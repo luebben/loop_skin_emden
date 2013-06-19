@@ -52,6 +52,8 @@ li .jstree-selected>a span.tocnumber,li .jstree-selected>a span.toctext{
 	
 a:hover {
 	color:#e32a28;}	
+div.loopsidenote div.keyword {
+	color: #a9afbf;}		
 	
 /* *******************************************************************
 * border-color 

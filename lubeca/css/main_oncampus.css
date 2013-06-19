@@ -46,7 +46,8 @@ li .jstree-selected>a span.tocnumber,li .jstree-selected>a span.toctext{
 	color: #8b8e9b;} /* 9e9d99 */
 #mw-fr-revisiontag,#mw-fr-revisiontag a {
 	color: #000000;} /* , a6adc2 */
-
+div.loopsidenote div.keyword {
+	color: #646879;}	
 
 /* *******************************************************************
 * border-color 
