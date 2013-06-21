@@ -1484,3 +1484,5 @@ div.loopsidenote div.keyword {
     line-height: 24px;
     font-weight:bold;
 }
+
+div.spoiler {border: 1px dashed #000000; background-color: #EEEEF2; padding: 3px;}
