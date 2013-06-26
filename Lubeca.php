@@ -57,9 +57,9 @@ class SkinLubeca extends SkinTemplate {
       #$out->addHeadItem( 'jqueryjs', '<script type="text/javascript" src="/mediawiki/resources/jquery/jquery.js"></script>' );
       $out->addHeadItem( 'jplayerdefault', '<link type="text/css" href="/mediawiki/extensions/LoopMediaHandler/skins/jplayer.blue.monday.css" rel="stylesheet" />' );
       
+    }
          $citevar = $this->get_cites_for_editor();
          $out->addJsConfigVars('wgeBiblioPlusCites',$citevar);
-    }
 
 	}
 
