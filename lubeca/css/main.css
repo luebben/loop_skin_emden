@@ -1486,3 +1486,8 @@ div.loopsidenote div.keyword {
 }
 
 div.spoiler {border: 1px dashed #000000; background-color: #EEEEF2; padding: 3px;}
+
+div.tool-select div.menu div.options {
+  height: 200px; 
+  overflow: scroll;
+  }
