@@ -57,9 +57,24 @@ class SkinLubeca extends SkinTemplate {
       #$out->addHeadItem( 'jqueryjs', '<script type="text/javascript" src="/mediawiki/resources/jquery/jquery.js"></script>' );
       $out->addHeadItem( 'jplayerdefault', '<link type="text/css" href="/mediawiki/extensions/LoopMediaHandler/skins/jplayer.blue.monday.css" rel="stylesheet" />' );
       
-         
+         $citevar = $this->get_cites_for_editor();
+         $out->addJsConfigVars('wgeBiblioPlusCites',$citevar);
     }
 
+	}
+
+	function get_cites_for_editor() {
+		global $wgParser;
+		$bibliopagename=wfMsg('bibliographypage');
+		$bibtitle = Title::newFromText( $bibliopagename );
+		$rev = Revision::newFromTitle( $bibtitle );
+		if ( !$rev ) {
+			return false;
+		}
+		$content = $rev->getText();
+		$citebib=new BiblioPlus();
+		$cites = $citebib->Biblio_render_biblio_for_Editor($content, '', $wgParser);
+		return $cites;
 	}
 
 	function addToBodyAttributes( $out, &$bodyAttrs ) {
