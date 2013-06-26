@@ -1480,9 +1480,9 @@ div.loopsidenote div.marginalnote {
     line-height: 14px;
 }
 div.loopsidenote div.keyword {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight:bold;
+    font-size: 12px;
+    line-height: 14px;
+    
 }
 
 div.spoiler {border: 1px dashed #000000; background-color: #EEEEF2; padding: 3px;}
