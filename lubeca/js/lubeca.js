@@ -55,6 +55,7 @@ function unhighlight_bib(bib) {
 
 
 function toggle_left() {
+	var mw;
 	$('#sidebar_left').toggle();
 	$('#footer_left').toggle();
 	$('#content_footer_left').toggle();
@@ -64,10 +65,14 @@ function toggle_left() {
 		show_left=false;
 		$.cookie("show_left","hide", { path: '/' });
 		$('#toggle_sidebar_left').removeClass('toggle_sidebar_left_open').addClass('toggle_sidebar_left_closed');
+		label = window.mw.message('loop-show-left-sidebar').text();
+		$('#toggle_sidebar_left').prop('title', label);
 	} else {
 		show_left=true;
 		$.cookie("show_left","show", { path: '/' });
 		$('#toggle_sidebar_left').removeClass('toggle_sidebar_left_closed').addClass('toggle_sidebar_left_open');
+		label = window.mw.message('loop-hide-left-sidebar').text();
+		$('#toggle_sidebar_left').prop('title', label);
 	}
 	
 	
@@ -95,10 +100,14 @@ function toggle_right() {
 		show_right=false;	
 		$.cookie("show_right","hide", { path: '/' });
 		$('#toggle_sidebar_right').removeClass('toggle_sidebar_right_open').addClass('toggle_sidebar_right_closed');
+		label = window.mw.message('loop-show-right-sidebar').text();
+		$('#toggle_sidebar_right').prop('title', label);
 	} else {
 		show_right=true;
 		$.cookie("show_right","show", { path: '/' });
 		$('#toggle_sidebar_right').removeClass('toggle_sidebar_right_closed').addClass('toggle_sidebar_right_open');
+		label = window.mw.message('loop-hide-right-sidebar').text();
+		$('#toggle_sidebar_right').prop('title', label);
 	}
 	
 	

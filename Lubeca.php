@@ -195,9 +195,9 @@ function toggleObjectVisibility(objectId) {
 <div id="content_main">
 <div id="content_bar">
 <div id="toggle_sidebar_left" href="#" onClick="toggle_left();"
-	class="toggle_sidebar_left_open"></div>
+	class="toggle_sidebar_left_open" title="<?php echo wfMessage('loop-hide-left-sidebar')->text(); ?>"></div>
 <div id="toggle_sidebar_right" href="#" onClick="toggle_right();"
-	class="toggle_sidebar_right_open"></div>
+	class="toggle_sidebar_right_open" title="<?php echo wfMessage('loop-hide-right-sidebar')->text(); ?>"></div>
 
 		<?php $this->getSearchfield();?>
 			<?php
