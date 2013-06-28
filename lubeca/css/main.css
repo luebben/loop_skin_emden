@@ -1491,3 +1491,7 @@ div.tool-select div.menu div.options {
   height: 200px; 
   overflow: scroll;
   }
+
+div.mediabox_content table {
+	line-height:1.4em;
+}
